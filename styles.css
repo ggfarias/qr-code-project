@@ -9,6 +9,11 @@
     font-family: 'Outfit', sans-serif;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     width: auto;
     height: 100vh;
@@ -42,6 +47,7 @@ body {
 .text-container {
     width: 300px;
     text-align: center;
+    padding: 1rem;
 }
 
 .title {
@@ -52,9 +58,11 @@ body {
     font-weight: 400;
     font-size: 15px;
     color: var(--grayish-blue);
+    margin-top: 0.75rem;
 }
 
 .attribution {
+    margin-top: 1rem;
     color: var(--grayish-blue);
 }
 
@@ -64,6 +72,6 @@ body {
 
 @media (max-width: 1440px) {
     body {
-        height: 95vh;
+        height: 100vh;
     }
 }
